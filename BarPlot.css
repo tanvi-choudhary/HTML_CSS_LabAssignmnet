@@ -1,0 +1,71 @@
+
+.container {
+    width:30%;
+    height:70%; 
+    background-color: rgb(206, 202, 235); 
+    position:absolute;
+    left:35%;
+} 
+.one{
+    display:inline-block;
+    width:20%;
+    padding-top: 90%; 
+    margin: 20px;
+    animation-name: changeBg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeBg{
+    0% {background: linear-gradient(to top, darkgrey 0%, white 0%);}
+    100% {background: linear-gradient(to top, darkgrey 30%, white 0%);}
+   }
+.two{
+    display:inline-block;
+    width:20%;
+    padding-top: 90%; 
+    margin: 20px;
+    animation-name: changeBg1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeBg1{
+    0% {background: linear-gradient(to top, darkgrey 0%, white 0%);}
+    100% {background: linear-gradient(to top, darkgrey 40%, white 0%);}
+   }
+.three{
+    display:inline-block;
+    width:20%;
+    padding-top: 90%; 
+    margin: 20px;
+    animation-name: changeBg2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes changeBg2{
+    0% {background: linear-gradient(to top, darkgrey 0%, white 0%);}
+    100% {background: linear-gradient(to top, darkgrey 80%, white 0%);}
+   }
+p{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left:45%;
+    top:60%;
+}
+.try{
+    top:78%;
+    position: absolute;
+    font-weight: normal;
+    font-size:20px;
+    padding-left: 2px;
+}
+.t1{
+    left:10%;
+}
+.t2{
+    left:42%;
+}
+.t3{
+    left:72%;
+}
